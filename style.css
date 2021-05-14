@@ -1,0 +1,220 @@
+html {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* container */
+.container {
+  position: relative;
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+.header__logo {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.logo {
+  font-size: 74px;
+  color: #fd427c;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Calligraffitti', cursive;
+  text-shadow: 0 0 40px black;
+}
+
+.down {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 10px;
+  color: white;
+  font-family: 'Calligraffitti', cursive;
+  text-shadow: 0 0 40px black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+}
+
+.down_nav {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -3px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.click__gorod {
+  padding: 7px 49px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  font-style: 700;
+}
+
+.btn2 {
+
+  margin-bottom: 9px;
+  text-transform: uppercase;
+  padding: 7px 69px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  font-style: 700;
+}
+
+.gorod {
+  position: relative;
+  width: 100%;
+  max-width: 310px;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.3);;
+}
+
+.gorod__name {
+max-width: 170px;
+line-height: 1.3;
+margin-left: 15px;
+color: white;
+}
+
+.gorod__date {
+  font-size: 14px;
+  margin-top: 5px;
+  color: silver;
+  margin-left: 15px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.line {
+  width: 100%;
+  margin-top: 25px;
+  position: relative;
+
+  border-top: 1px solid white;
+  opacity: 0.4;
+
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.sale {
+  margin-left: 255px;
+  position:absolute; right: 0px;
+  margin-top: 12px;
+  margin-right: 15px;
+  padding: 8px;
+  background-color: white;
+  height: 37px;
+  width: 37px;
+  border-radius: 2px;
+}
+
+.sale:hover {
+  background-color: #c8c6c6;
+}
+
+.sale-vk {
+  margin-left: 255px;
+  position:absolute; right: 0px;
+  margin-top: 12px;
+  margin-right: 67px;
+  padding: 8px;
+  background-color: white;
+  height: 37px;
+  width: 37px;
+  border-radius: 2px;
+}
+
+.sale-vk:hover {
+  background-color: #c8c6c6;
+}
+
+.icons {
+  position: relative;
+  width: 100%;
+  max-width: 310px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.icons_1 {
+  height: 37px;
+  width: 37px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.container2 {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center; / /* если нужно выравнивание по вертикали */
+}
+
+.container3 {
+  margin: 0 auto;
+  width: 320px;
+  text-align: center;
+  margin-top: 28px;
+  display: none;
+  text-shadow: 0 0 40px black;
+}
+
+.header__logo {
+  display: block;
+  animation: wiggle 2.5s infinite;
+}
+
+.header__logo:hover {
+  animation: none;
+}
